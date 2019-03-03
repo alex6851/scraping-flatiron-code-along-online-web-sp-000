@@ -25,7 +25,6 @@ class Scraper
   end
 
   def get_courses
-    binding.pry
     doc.css(".post").css("h2")
   end
 

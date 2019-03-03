@@ -28,4 +28,8 @@ class Scraper
     get_page.css(".post").css("h2")
   end
 
+  def make_courses
+    
+  end
+
 end

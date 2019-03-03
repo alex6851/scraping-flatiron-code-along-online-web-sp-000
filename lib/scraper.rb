@@ -26,7 +26,7 @@ class Scraper
 
   def get_courses
     binding.pry
-    get_page.doc.css(".post").css("h2")
+    get_page.css(".post").css("h2")
   end
 
 end
